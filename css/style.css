@@ -1,3 +1,13 @@
+/*
+  Template Name: WhatsApp Web Barcode
+  Template URL: https://wealthydeveloper.github.io/portfolio/
+  Author: Idongesit Utong 
+  Github Name: Wealthydeveloper
+  Author URL: https://ide.com.ng/
+
+
+/*--------------------------------------------------------------*/
+
 .container-fluid{
     background-color: #0D1E2D;
     height: 245px;
@@ -57,7 +67,7 @@ a{
 
 .gallery:hover{
 
-    
+
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
