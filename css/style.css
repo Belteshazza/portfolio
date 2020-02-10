@@ -1,3 +1,6 @@
+
+
+
 /*
   Template Name: WhatsApp Web Barcode
   Template URL: https://wealthydeveloper.github.io/portfolio/
@@ -8,6 +11,34 @@
 
 /*--------------------------------------------------------------*/
 
+body {
+    font-family: "Inconsolata", monosapce;
+    color: #0d1e2d;
+  }
+
+
+
+  a {
+    color: #777;
+  }
+
+
+
+  a:hover {
+    color: #000;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-heading {
+    font-family: "Raleway", sans-serif;
+  }
+
+  
 .container-fluid{
     background-color: #0D1E2D;
     height: 245px;
@@ -162,7 +193,7 @@ ul{
         color: #0d1e2d;
       }
       
-      .fab {
+      .icon {
         display: inline-block;
         left: 50%;
         position: absolute;
@@ -174,10 +205,4 @@ ul{
       .social a:hover {
         color: #000;
       }
-      
-      @media (max-width: 780px) {
-        .custom-navbar > .container {
-          padding-right: 0;
-          padding-left: 0;
-        }
-      }
+     
