@@ -124,6 +124,8 @@ a{
 
 .services{
     background-color: white;
+    padding-right: ;
+    padding-bottom: 110px;
    
 }
 
@@ -133,30 +135,35 @@ ul{
    
 }
 
+.tems{
+  padding-left: 20px;
+
+}
+
+.items{
+
+  margin-top: 10px;
+}
+
 
 
 .testimony{
-    background-color: rgba(204, 216, 221, 0.301);
-    
+    background-color: rgba(204, 216, 221, 0.301);    
 }
 
 .img-container {
     text-align: center;
-    padding-bottom: 74px;
+    padding-top: 25px;
+    padding-bottom: 94px;
+    max-width: 350px;
+    margin: 0 auto;
     
   }
 
-  word-break{
-    max-width:10px !important;
-    min-width: 10px !important;
-    word-wrap: break-word;
-  }
-
+ 
 .testimony-picture{
     height: 125px;
-    margin: 57px;
-    max-width:300px !important;
-    min-width: 100px !important;
+    margin: 27px;
     
    
 }
@@ -198,7 +205,7 @@ ul{
         left: 50%;
         position: absolute;
         top: 50%;
-        -webkit-transform: translate(-50%, -50%);
+        -webkit-transfornm: translate(-50%, -50%);
         transform: translate(-50%, -50%);
       }
       
