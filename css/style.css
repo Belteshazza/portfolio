@@ -11,12 +11,12 @@
 
 /*--------------------------------------------------------------*/
 
+
+
 body {
-    font-family: "Inconsolata", monosapce;
-    color: #0d1e2d;
-  }
-
-
+  font-family: "Inconsolata", monosapce;
+  color: #0d1e2d;
+}
 
   a {
     color: #777;
@@ -28,14 +28,32 @@ body {
     color: #000;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .font-heading {
-    font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+  font-family: "Raleway", sans-serif;
+}
+ 
+
+
+.h3 {
+  font-size: 20px;
+}
+
+.h4 {
+  font-size: 16px;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+  .two{
+    font-family: 'Akronim';font-size: 22px;
   }
 
   
@@ -47,6 +65,88 @@ body {
     overflow: hidden;
     margin-bottom: 55px;
 }
+
+/*   ---- items-wrap----- */
+
+.item-wrap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .item-wrap:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+
+
+.item .item-wrap img {
+  transition: .3s transform ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item .item-wrap > .work-info {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: .3s all ease;
+}
+
+.item .item-wrap > .work-info h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+
+.item .item-wrap > .work-info span {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+
+
+.item .item-wrap:hover {
+  text-decoration: none;
+}
+
+.item .item-wrap:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+.item .item-wrap:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.item-wrap:hover .work-info {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
 
 .py-md-5{
     padding-left: 85px;
@@ -96,14 +196,6 @@ a{
     padding-bottom: 210px;
 }
 
-.gallery:hover{
-
-
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
-    
-}
 
 .my-clients{
     background-color: white;
@@ -119,18 +211,16 @@ a{
 
 .my-services{
     background-color: white;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .services{
     background-color: white;
-    padding-right: ;
     padding-bottom: 110px;
    
 }
 
 ul{
-    padding-right: px;
     list-style-type: '— ';
    
 }
