@@ -14,48 +14,33 @@
 
 
 body {
-  font-family: "Inconsolata", monosapce;
+  font-family: "Inconsolata", monosapce;font-size: 16px;
   color: #0d1e2d;
 }
 
-  a {
-    color: #777;
-  }
+p.font-heading {
+  font-family: "Raleway"
+}
 
+a{
+  color: rgb(19, 18, 18);
+}
 
+a:hover {
+  color: #000;
+}
 
-  a:hover {
-    color: #000;
-  }
-  
-h1,
-h2,
-h3,
-h4,
+h2 {
+  font-family: "Raleway"
+}
+
 h5,
 h6,
+p,
+
 .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;font-size: 16.5px;
 }
- 
-
-
-.h3 {
-  font-size: 20px;
-}
-
-.h4 {
-  font-size: 16px;
-}
-
-.heading {
-  font-size: 28px;
-}
-
-  .two{
-    font-family: 'Akronim';font-size: 22px;
-  }
-
   
 .container-fluid{
     background-color: #0D1E2D;
@@ -64,6 +49,19 @@ h6,
     font-size: 16px;
     overflow: hidden;
     margin-bottom: 55px;
+}
+
+.custom-menu a{
+  color:white;
+}
+
+#x{
+  padding-left: 50px;
+  font-size: 36px;
+}
+
+.lin a{
+  padding:10px;
 }
 
 /*   ---- items-wrap----- */
@@ -148,6 +146,13 @@ h6,
 
 
 
+
+
+.heading {
+  font-size: 28px;
+}
+
+
 .py-md-5{
     padding-left: 85px;
     padding-right: 130px;
@@ -159,13 +164,9 @@ h6,
     
 }
 
-a{
-    color:white;
-}
-
 
 .container{
-    background-color: darkgray;
+    background-color:white;
     height: 950px;
 }
 
@@ -180,7 +181,7 @@ a{
 
 .header{
     background-color: white;
-    padding-bottom: 30px;
+    
     
 }
 
@@ -193,12 +194,13 @@ a{
 
 .picture{
     background-color:white;
-    padding-bottom: 210px;
+    padding-bottom: 10px;
 }
 
 
 .my-clients{
     background-color: white;
+    padding-top: 200px;
     padding-bottom: 30px;
     
 }
