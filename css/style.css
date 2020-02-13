@@ -240,7 +240,10 @@ ul{
 
 
 .testimony{
-    background-color: rgba(204, 216, 221, 0.301);    
+    background-color: rgba(221, 211, 204, 0.301);  
+    
+    margin-bottom: 55px;
+
 }
 
 .img-container {
@@ -260,11 +263,7 @@ ul{
    
 }
 
-.footer{
-    background-color: rgb(253, 253, 253);
-    padding-bottom: 70px;
-    
-}
+
 
 .copy-right{
 
@@ -304,4 +303,7 @@ ul{
       .social a:hover {
         color: #000;
       }
+
+
+      
      
