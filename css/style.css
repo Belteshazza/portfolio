@@ -14,7 +14,7 @@
 
 
 body {
-  font-family: "Inconsolata", monosapce;font-size: 16px;
+  font-family: "Inconsolata", monosapce;
   color: #0d1e2d;
 }
 
@@ -39,7 +39,8 @@ h6,
 p,
 
 .font-heading {
-  font-family: "Raleway", sans-serif;font-size: 16.5px;
+  font-family: "Inconsolata", monosapce;font-size: 16.5px;
+
 }
   
 .container-fluid{
@@ -49,6 +50,10 @@ p,
     font-size: 16px;
     overflow: hidden;
     margin-bottom: 55px;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .custom-menu a{
@@ -241,7 +246,9 @@ ul{
 
 .testimony{
     background-color: rgba(221, 211, 204, 0.301);  
-    
+    width: 120px;
+    margin: 0 auto 30px auto;
+
     margin-bottom: 55px;
 
 }
@@ -250,7 +257,7 @@ ul{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 94px;
-    max-width: 350px;
+    max-width: 550px;
     margin: 0 auto;
     
   }
@@ -261,6 +268,11 @@ ul{
     margin: 27px;
     
    
+}
+
+.blockquote{
+  font-family: "Inconsolata", monosapce !important;
+  color: #0d1e2d;
 }
 
 
